@@ -5,14 +5,20 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0 auto;
 }
 
 header {
   border-bottom: 1px solid seashell;
-  height: 69px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: black;
+  flex-wrap: wrap;
+  top: 0px;
+  width: 100%;
 }
 
 header img {
@@ -55,9 +61,17 @@ header img {
   justify-content: center;
 }
 
+.tea-text h4 {
+  padding: 10px;
+}
+
 .tea-container img {
   padding: 20px;
   margin: 0 auto;
+}
+
+.tea-1 {
+  padding: 5px;
 }
 
 .tea-1 p {
@@ -70,6 +84,10 @@ header img {
   order: 1;
 }
 
+.tea-2 {
+  padding: 5px;
+}
+
 .tea-2 p {
   margin-top: 10px;
 }
@@ -78,6 +96,10 @@ header img {
   height: 200px;
   width: 300px;
   order: 2;
+}
+
+.tea-3 {
+  padding: 5px;
 }
 
 .tea-3 p {
@@ -90,6 +112,10 @@ header img {
   order: 3;
 }
 
+.tea-4 {
+  padding: 5px;
+}
+
 .tea-4 p {
   margin-top: 10px;
 }
@@ -98,6 +124,10 @@ header img {
   height: 200px;
   width: 300px;
   order: 4;
+}
+
+.tea-5 {
+  padding: 5px;
 }
 
 .tea-5 p {
@@ -110,19 +140,23 @@ header img {
   order: 5;
 }
 
-.locations {
+#locations {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
   height: 500px;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 70px;
+}
+
+.locations {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .locations h2 {
   color: green;
-  display: flex;
 }
 
 .downtown {
@@ -133,10 +167,19 @@ header img {
 .east {
   background-color: black;
   width: 300px;
-  margin: 0 10px;
+  margin: 0 40px;
 }
 
 .oakdale {
   background-color: black;
   width: 300px;
+}
+
+footer {
+  height: 200px;
+}
+
+footer .copy {
+  text-align: left;
+  margin-left: 20px;
 }
